@@ -13,5 +13,6 @@ Notes to consider:
 - Elastic is the only one that's not focused on storing and searching vectors, and it is used to massive data, so it seems pretty reasonable that for small amount of loadtest like this, it gives some worse usage metrics, it probably needs something stronger than my laptop to run on and scales better that the others (but thats sheers speculation from someone that is still deciding which one to use in prod).
 
 Results:
+
 ![Tempos](times.png)
-![Uso computacional](usage.png)
+![Uso computacional](usages.png)
