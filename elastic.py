@@ -38,30 +38,6 @@ class ElasticsearchConnection:
                 }
             }, ignore=400)
 
-    # def bulk_index(self, index_name: str, vectors: list[dict]) -> None:
-    #     """Insere um novo documento no Elasticsearch."""
-    #     batch_size = 1000
-    #     for i in range(0, len(vectors), batch_size):
-    #         batch = vectors[i:i + batch_size]
-    #         operations = []
-    #         for vector in batch:
-    #             operations.extend([
-    #                 {
-    #                     "index": {
-    #                         "_index": index_name,
-    #                         "_id": vector['text']
-    #                     }
-    #                 },
-    #                 {
-    #                     "text": vector['text'],
-    #                     "text_vector": vector['text_vector']
-    #                 }
-    #             ])
-    #         self.es.bulk(
-    #             operations=operations,
-    #         )
-    #     self.es.indices.refresh(index=index_name)
-    #
     def bulk_index(self, index_name: str, batches: list[list[dict]]) -> None:
         """Insere vários documentos no Elasticsearch."""
         for batch in batches:
