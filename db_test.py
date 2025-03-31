@@ -15,9 +15,9 @@ import pandas as pd
 from qdrant_client.models import PointStruct
 from sentence_transformers import SentenceTransformer
 
-from elastic import ElasticsearchConnection
-from milvus import MilvusConnection
-from qdrant import QdrantConnection
+from databases.elastic import ElasticsearchConnection
+from databases.milvus import MilvusConnection
+from databases.qdrant import QdrantConnection
 from plots import plot_times, plot_usages
 
 
