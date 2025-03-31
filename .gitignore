@@ -1,0 +1,8 @@
+*.venv/
+*.pyc
+*/__pycache__/*
+*.pyo
+*.pyd
+embeddings.json
+volumes/
+rag-mini-wikipedia/

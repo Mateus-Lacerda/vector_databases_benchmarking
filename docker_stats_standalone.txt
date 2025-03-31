@@ -1,0 +1,8 @@
+Stats for search in standalone:
+94e2f600b524   milvus-standalone   10.37%    72.93MiB / 18.89GiB   0.38%     96.3kB / 93kB     741kB / 152kB     44
+b167b5e9262d   milvus-etcd         1.57%     15.26MiB / 18.89GiB   0.08%     91.5kB / 75.2kB   147kB / 471kB     14
+3e8fa2c99431   milvus-minio        0.02%     167.4MiB / 18.89GiB   0.87%     22.2kB / 5.44kB   1.55MB / 28.7kB   17
+Stats for search in standalone:
+94e2f600b524   milvus-standalone   5.95%     170.5MiB / 18.89GiB   0.88%     5.17MB / 115kB    872kB / 152kB     46
+b167b5e9262d   milvus-etcd         0.67%     15.3MiB / 18.89GiB    0.08%     94kB / 75.9kB     147kB / 512kB     14
+3e8fa2c99431   milvus-minio        0.00%     167.4MiB / 18.89GiB   0.87%     23.6kB / 5.44kB   1.55MB / 28.7kB   17

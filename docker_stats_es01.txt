@@ -1,0 +1,6 @@
+Stats for insert in es01:
+3bacb2e4e9f6   vector_databases-es01-1   240.14%   1.588GiB / 2GiB     79.41%    8.22MB / 14.7kB   57.6MB / 4.48MB   125
+Stats for search in es01:
+3bacb2e4e9f6   vector_databases-es01-1   168.05%   1.594GiB / 2GiB     79.72%    26.3MB / 686kB   57.6MB / 30.7MB   127
+Stats for search in es01:
+3bacb2e4e9f6   vector_databases-es01-1   0.86%     1.594GiB / 2GiB     79.72%    26.3MB / 686kB   57.6MB / 30.7MB   127

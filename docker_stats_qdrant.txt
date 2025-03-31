@@ -1,0 +1,2 @@
+Stats for search in qdrant:
+9085c2cf1f70   vector_databases-qdrant-1   0.23%     191.2MiB / 18.89GiB   0.99%     26MB / 20kB   1.5MB / 958kB   61

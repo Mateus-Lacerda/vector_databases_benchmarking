@@ -1,0 +1,6 @@
+elasticsearch==8.14.0
+matplotlib==3.8.2
+numpy==1.26.3
+pymilvus==2.5.6
+qdrant-client==1.13.0
+sentence-transformers==4.0.1
